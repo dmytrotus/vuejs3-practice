@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import JSConfetti from 'js-confetti'
 
 const confetti = new JSConfetti()

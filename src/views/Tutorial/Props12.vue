@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import ChildComp12 from './ChildComp12.vue'
 
 export default {

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 export default {
   mounted() {
     this.$refs.p.textContent = 'mounted and updated via refs!'

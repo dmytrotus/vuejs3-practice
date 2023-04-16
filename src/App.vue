@@ -14,6 +14,20 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/tutorial/1">Getting Started</RouterLink>
+        <RouterLink to="/tutorial/2">Declarative rendering</RouterLink>
+        <RouterLink to="/tutorial/3">Attribute bindings</RouterLink>
+        <RouterLink to="/tutorial/4">Event listeners</RouterLink>
+        <RouterLink to="/tutorial/5">Form bindings</RouterLink>
+        <RouterLink to="/tutorial/6">Conditional rendering</RouterLink>
+        <RouterLink to="/tutorial/7">List rendering</RouterLink>
+        <RouterLink to="/tutorial/8">Computed property</RouterLink>
+        <RouterLink to="/tutorial/9">Lifecykle and Template Refs</RouterLink>
+        <RouterLink to="/tutorial/10">Watchers</RouterLink>
+        <RouterLink to="/tutorial/11">Components</RouterLink>
+        <RouterLink to="/tutorial/12">Props</RouterLink>
+        <RouterLink to="/tutorial/13">Emits</RouterLink>
+        <RouterLink to="/tutorial/14">Slots</RouterLink>
+        <RouterLink to="/tutorial/15">Nice confeti</RouterLink>
       </nav>
     </div>
   </header>

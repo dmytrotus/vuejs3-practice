@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 // give each todo a unique id
 let id = 0
 
