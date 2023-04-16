@@ -16,6 +16,7 @@ import Props12 from '../views/Tutorial/Props12.vue';
 import Emits13 from '../views/Tutorial/Emits13.vue';
 import Slots14 from '../views/Tutorial/Slots14.vue';
 import NiceConfeti15 from '../views/Tutorial/NiceConfeti15.vue';
+import GetUser from '../components/GetUser.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -107,6 +108,11 @@ const router = createRouter({
       path: '/tutorial/15',
       name: 'NiceConfeti15',
       component: NiceConfeti15
+    },
+    {
+      path: '/github/getuser',
+      name: 'GetUser',
+      component: GetUser
     }
   ]
 })

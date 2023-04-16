@@ -28,6 +28,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/tutorial/13">Emits</RouterLink>
         <RouterLink to="/tutorial/14">Slots</RouterLink>
         <RouterLink to="/tutorial/15">Nice confeti</RouterLink>
+        <RouterLink to="/github/getuser">Get user from github</RouterLink>
       </nav>
     </div>
   </header>
