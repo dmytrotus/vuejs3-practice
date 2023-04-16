@@ -11,6 +11,11 @@ import ListRendering7 from '../views/Tutorial/ListRendering7.vue';
 import ComputedProperty8 from '../views/Tutorial/ComputedProperty8.vue';
 import LifecykleAndTemplatedRefs9 from '../views/Tutorial/LifecykleAndTemplatedRefs9.vue';
 import Watchers10 from '../views/Tutorial/Watchers10.vue';
+import Components11 from '../views/Tutorial/Components11.vue';
+import Props12 from '../views/Tutorial/Props12.vue';
+import Emits13 from '../views/Tutorial/Emits13.vue';
+import Slots14 from '../views/Tutorial/Slots14.vue';
+import NiceConfeti15 from '../views/Tutorial/NiceConfeti15.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -77,6 +82,31 @@ const router = createRouter({
       path: '/tutorial/10',
       name: 'Watchers10',
       component: Watchers10
+    },
+    {
+      path: '/tutorial/11',
+      name: 'Components11',
+      component: Components11
+    },
+    {
+      path: '/tutorial/12',
+      name: 'Props12',
+      component: Props12
+    },
+    {
+      path: '/tutorial/13',
+      name: 'Emits13',
+      component: Emits13
+    },
+    {
+      path: '/tutorial/14',
+      name: 'Slots14',
+      component: Slots14
+    },
+    {
+      path: '/tutorial/15',
+      name: 'NiceConfeti15',
+      component: NiceConfeti15
     }
   ]
 })
